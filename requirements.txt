@@ -1,21 +1,21 @@
-# OCR
-marker-pdf[full]>=1.0.0
-surya-ocr>=0.9.0
+# Aplikacja
+streamlit>=1.40.0
 
-# Image preprocessing
-opencv-python-headless>=4.9.0
+# dots.ocr
+# pip install -e ./dots.ocr  (instalacja z lokalnego źródła)
+
+# Inference
+vllm>=0.7.0
+transformers>=4.46.0
+torch>=2.5.0
+
+# Preprocessing obrazów
 Pillow>=10.0.0
-numpy>=1.24.0
-
-# PDF handling
 PyMuPDF>=1.24.0
 
-# UI
-streamlit>=1.38.0
+# Pobieranie modeli
+huggingface-hub>=0.26.0
+modelscope>=1.20.0
 
-# GPU support
-torch>=2.2.0
-torchvision>=0.17.0
-
-# Utilities
-python-dateutil>=2.8.0
+# Pomocnicze
+requests>=2.32.0
