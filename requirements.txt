@@ -1,0 +1,21 @@
+# OCR
+marker-pdf[full]>=1.0.0
+surya-ocr>=0.9.0
+
+# Image preprocessing
+opencv-python-headless>=4.9.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# PDF handling
+PyMuPDF>=1.24.0
+
+# UI
+streamlit>=1.38.0
+
+# GPU support
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Utilities
+python-dateutil>=2.8.0
